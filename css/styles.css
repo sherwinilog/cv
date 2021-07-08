@@ -1,11 +1,12 @@
 .top-container{
-    background-color: #CDF0EA;
+    background-color: #eaf6f6;
     position:relative;
     padding-top: 100px;
 }
 
 .pro{
     text-decoration: underline;
+
 }
 
 .middle-container{
@@ -20,10 +21,36 @@
     left: 300px;
     bottom: 300px;
 }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
 .top-cloud{
     position:absolute;
     right: 300px;
     top: 50px;
+}
+.troubleshoot{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.creativity{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+p{
+    color: #40514E;
+}
+
+a{
+    color: #11999E;
 }
 body{
     margin: 0;
@@ -32,12 +59,24 @@ body{
 }
 
 h1{
-    margin-top: 0;
+    margin: 50px auto 0 auto;
     font-family: 'Dancing Script', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    
 }
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr{
+    border-top: 5px dotted #EAF6F6;
+    width: 5%;
 }
